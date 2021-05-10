@@ -1,0 +1,56 @@
+body {
+  background-color: #99ddff;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  display: block;
+  align-items: center;
+}
+
+#editor {
+  width: 99%;
+  height: 300px;
+}
+
+.editor {
+  width: 500px;
+  height: 400px;
+  .editorTitle {
+    display: block;
+    height: auto;
+    border: 1px black dotted;
+    background-color: #286f92;
+    color: aliceblue;
+  }
+}
+
+.preview {
+  width: 800px;
+  height: auto;
+  border: 1px black dashed;
+  .editorTitle {
+    display: block;
+    height: auto;
+    border: 1px black dotted;
+    background-color: #286f92;
+    color: aliceblue;
+  }
+}
+
+#preview {
+  margin-top: -20px;
+  height: 100%;
+  background-color: aliceblue;
+  padding-left: 10px;
+  table {
+    border: 1px dotted black;
+  }
+  thead {
+    border-bottom: 2px black dotted;
+  }
+  pre {
+    background-color: rgb(219, 219, 136);
+  }
+}
